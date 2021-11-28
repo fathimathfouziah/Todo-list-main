@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(186, 197, 191);
+    background-image: url("https://cdn4.vectorstock.com/i/1000x1000/15/73/to-do-list-seamless-pattern-background-business-vector-20181573.jpg");
+    position: relative;
+    min-height: 89vh;
+ 
+}
+form {
+  background-color : rgb(240, 168, 14);
+  }
+
+.form--header-container {
+  background:var(--primaryColor);
+  color: rgb(19, 18, 10);
+  height: 6rem;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+.container{
+  background-color : rgb(230, 179, 11);
+
+}
+
+#preview {
+  padding: 4rem;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+#list {
+  padding: 4rem;
+}
+
+input {
+  height: 23px;
+  width: 23px;
+}
